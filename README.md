@@ -58,12 +58,6 @@ Open `notebooks/COMP1801.ipynb`, set the dataset path, and run.
   ```
 - Mount/import your dataset CSV, then run all cells.
 
-## 🖼️ Add visuals
-Export key figures (correlation heatmap, RF feature importances, K-Means elbow, confusion matrix) to `assets/` and embed below:
-```markdown
-![Feature Importances](assets/feature_importances.png)
-![Confusion Matrix](assets/confusion_matrix.png)
-```
 
 ## 🔍 Notes
 - K-Means used to derive **Low/Medium/High** labels; only the **High** cluster mostly meets the >1500h requirement (some edge cases just below threshold).  
